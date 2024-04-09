@@ -9,11 +9,13 @@
     <!-- Script -->
     <script src="../scripts/include.js"> </script>
     <!-- Font -->
-    <script> include('fonts');</script>
+    <script> includeFonts('fonts');</script>
 </head>
 <body>
 <div class="container">
-    <script> include('nav');</script>
+    <header class="header">
+        <script> include('nav.html','header');</script>
+    </header>
 
 
     <main class="main">
@@ -103,7 +105,9 @@
     </main>
 
 
-    <script> include('footer');</script>
+    <footer class="footer">
+        <script> include('footer.html', 'footer');</script>
+    </footer>
 </div>
 </body>
 </html>
