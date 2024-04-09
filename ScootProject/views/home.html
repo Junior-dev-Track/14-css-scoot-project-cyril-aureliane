@@ -11,5 +11,25 @@
 </head>
 <body>
 
+<script>
+    console.log('avant fetch');
+    fetch('nav.html')
+        .then(async (response) => {
+            const content = await response.text(); // Stocker le contenu dans une variable
+            console.log(content);
+            document.body.innerHTML += content;
+        })
+        .catch(error => console.error("Une erreur s'est produite lors du chargement du fichier :", error));
+
+    console.log('après fetch');
+</script>
+
+<!--<script>-->
+<!--    // Insérer le contenu du fichier HTML "nav.html"-->
+<!--    const navHtml = await fetch("./component/nav.html").then(response => response.text());-->
+<!--    document.body.innerHTML += navHtml;-->
+<!--</script>-->
+
+
 </body>
 </html>
