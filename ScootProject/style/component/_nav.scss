@@ -1,55 +1,103 @@
 header {
     height: $heightHeader;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
+}
 
-    .nav {
-        position: absolute;
-        display: none;
-        height: calc(100vh - $heightHeader);
-        width: 68.267vw;
-        top: $heightHeader;
-        left: 0;
-        padding: 10.667vw 8.533vw 8.533vw 8.533vw;
-        background-color: $darkNavy;
-        flex-direction: column;
-        justify-content: space-between;
-//display: none;
-        a {
-            font-size: 1.125rem;
-            color: white;
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
+.superNav {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    width: 100vw;
+    height: calc(100vh - $heightHeader);
+    //display: none;
+    grid-column: 1/ span 3;
+    grid-row: 2 ;
 
-        ul {
-            display: flex;
-            flex-direction: column;
-            gap: 5.333vw;
-        }
+    position: absolute;
+    left: -1200px;
+}
+
+.nav {
+    position: absolute;
+    display: flex;
+    height: 100% ;
+    width: 68.267vw;
+    padding: 10.667vw 8.533vw 8.533vw 8.533vw;
+    background-color: $darkNavy;
+    flex-direction: column;
+    justify-content: space-between;
+    //display: none;
+    a {
+        font-size: 1.125rem;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 1px;
     }
 
-    .logo {
-        width: 17.067vw;
-        justify-self: center;
-    }
-
-    .burger {
-        height: 4.267vw;
-        width: 5.067vw;
-        justify-self: start;
+    ul {
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        
-        .line {
-            height: 20%;
-            background-color: $yellow;
-        }
+        gap: 5.333vw;
+    }
+}
+
+.logo {
+    width: 17.067vw;
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 1 ;
+}
+
+.burger {
+    grid-column: 1;
+    grid-row: 1 ;
+
+    width: 5.067vw;
+    height: 4.267vw;
+    margin: 24px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
+.line {
+    width: 5.251vw;
+    height: 0.984vw;
+    background-color: $yellow;
+    transition: all 0.3s ease;
 }
 
+.line::before, .line::after {
+    content: '';
+    position: absolute;
+    width: 5.251vw;
+    height: 0.984vw;
+    background-color: $yellow;
+    transition: all 0.5s ease;
+}
+.line::before{
+    transform: translateY(15px);
+}
+.line::after {
+    transform: translateY(-15px);
+}
 
+.active {
+    .line {
+        background-color: white;
+    }
+    .line::before{
+        transform: translateY(0px) rotate(-45deg);
+    }
+    .line::after {
+        transform: translateY(0px) rotate(45deg);
+    }
+}
+
+.switch {
+    left: 0px;
+    top: $heightHeader;
+}
