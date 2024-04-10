@@ -29,6 +29,10 @@ body {
   padding: 0 8.533vw;
 }
 
+.overflowNone {
+  overflow: hidden;
+}
+
 .h1 {
   font-size: 3.5rem;
   line-height: 1em;
