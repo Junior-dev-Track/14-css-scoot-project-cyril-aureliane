@@ -1,14 +1,19 @@
-img {
-  object-fit: contain;
-  object-position: left center;
+.img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+
   //display: none;
 }
 
 .round {
-  border-radius: 300px;
+  border-radius: 50%;
   width: 82.933vw;
   aspect-ratio: 1/1;
   background-color: #FCB72B;
+  //display: flex;
+  //justify-contenty: center;
+  //align-items: center;
   overflow: hidden;
 
 }

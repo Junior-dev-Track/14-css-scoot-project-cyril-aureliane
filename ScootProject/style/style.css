@@ -27,7 +27,7 @@ body {
 .h1 {
   font-family: "Space Mono", monospace;
   font-size: 3.5rem;
-  line-height: 1em;
+  line-height: 3.733em;
   letter-spacing: -0.045em;
   color: white;
 }
@@ -35,18 +35,21 @@ body {
 .h2 {
   font-family: "Space Mono", monospace;
   font-size: 3rem;
+  line-height: 3.2em;
   letter-spacing: -0.045em;
 }
 
 .h3 {
   font-family: "Space Mono", monospace;
   font-size: 2.5rem;
+  line-height: 3.2em;
   letter-spacing: -1.79px;
 }
 
 .h4 {
   font-family: "Space Mono", monospace;
   font-size: 1.5rem;
+  line-height: 1.867em;
   letter-spacing: -0.045em;
 }
 
@@ -60,13 +63,14 @@ body {
   color: #939CAA;
 }
 
-img {
-  object-fit: contain;
-  object-position: left center;
+.img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .round {
-  border-radius: 300px;
+  border-radius: 50%;
   width: 82.933vw;
   aspect-ratio: 1/1;
   background-color: #FCB72B;
