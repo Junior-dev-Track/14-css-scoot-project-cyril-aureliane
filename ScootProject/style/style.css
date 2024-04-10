@@ -28,7 +28,7 @@ body {
   width: 100vw;
 }
 
-.container > :not(.topMain, .superNav) {
+.container > :not(.topMain, .superNav, .logo) {
   padding: 0 8.533vw;
 }
 
@@ -172,15 +172,14 @@ header {
   grid-row: 1;
   width: 5.067vw;
   height: 4.267vw;
-  margin: 24px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .line {
-  width: 5.251vw;
-  height: 0.984vw;
+  width: 19.69px;
+  height: 3.69px;
   background-color: #FCB72B;
   transition: all 0.3s ease;
 }
@@ -188,18 +187,18 @@ header {
 .line::before, .line::after {
   content: "";
   position: absolute;
-  width: 5.251vw;
-  height: 0.984vw;
+  width: 19.69px;
+  height: 3.69px;
   background-color: #FCB72B;
   transition: all 0.5s ease;
 }
 
 .line::before {
-  transform: translateY(15px);
+  transform: translateY(6.15px);
 }
 
 .line::after {
-  transform: translateY(-15px);
+  transform: translateY(-6.15px);
 }
 
 .active .line {
@@ -215,6 +214,7 @@ header {
 .switch {
   left: 0px;
   top: 17.067vw;
+  transition: all 0.35s ease;
 }
 
 article {
