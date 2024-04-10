@@ -1,11 +1,24 @@
 header {
-    height: 17.067vw;
+    height: $heightHeader;
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
 
-    nav {
-        display: none;    
+    .nav {
+        position: absolute;
+        display: flex;
+        height: calc(100vh - $heightHeader);
+        width: 68.267vw;
+        top: $heightHeader;
+        left: 0;
+        padding: 10.667vw 8.533vw 8.533vw 8.533vw;
+        background-color: $darkNavy;
+        flex-direction: column;
+        justify-content: space-between;
+
+        a {
+            font-size: 1.125rem;
+        }
     }
 
     .logo {

@@ -57,8 +57,10 @@ body {
 
 .img {
   height: 100%;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 .round {
@@ -104,13 +106,25 @@ button {
 }
 
 header {
-  height: 17.067vw;
+  height: 17.067vh;
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
 }
-header nav {
-  display: none;
+header .nav {
+  position: absolute;
+  display: flex;
+  height: 82.933vh;
+  width: 68.267vw;
+  top: 17.067vh;
+  left: 0;
+  padding: 10.667vw 8.533vw 8.533vw 8.533vw;
+  background-color: #495567;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .nav a {
+  font-size: 1.125rem;
 }
 header .logo {
   width: 17.067vw;
@@ -127,20 +141,6 @@ header .burger {
 header .burger .line {
   height: 20%;
   background-color: #FCB72B;
-}
-
-article {
-  background-color: #F2F5F9;
-  margin: 50px 0; /* a mettre en vw */
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-}
-article .p {
-  color: #495567;
 }
 
 /*# sourceMappingURL=style.css.map */

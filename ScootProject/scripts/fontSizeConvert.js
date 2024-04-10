@@ -1,5 +1,5 @@
 // Unit
-let fontSize=24;
+let fontSize=18;
 let lineHeight=28;
 let letterSpacing=-1.07;
 
