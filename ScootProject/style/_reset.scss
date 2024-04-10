@@ -12,12 +12,15 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  overflow: hidden;
+  overflow-x: hidden;
+
 }
 body {
   height: 100vh;
   width: 100vw;
   font-family: Inter, Arial, sans-serif;
+  overflow-y: scroll;
+
   //background-color: $white;
   //color: $black;
 }
