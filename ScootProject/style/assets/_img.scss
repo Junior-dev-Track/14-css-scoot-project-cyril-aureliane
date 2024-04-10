@@ -10,10 +10,16 @@
   border-radius: 50%;
   width: 82.933vw;
   aspect-ratio: 1/1;
-  background-color: #FCB72B;
-  //display: flex;
-  //justify-contenty: center;
-  //align-items: center;
+  background-color: $yellow;
   overflow: hidden;
+  // Can be improve
+  text-align: center;
+}
 
+.medium {
+  width: 25.600vw;
+
+}
+.small {
+  width: 14.933vw;
 }
