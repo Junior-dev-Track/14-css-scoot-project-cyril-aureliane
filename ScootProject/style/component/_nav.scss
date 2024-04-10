@@ -6,7 +6,7 @@ header {
 
     .nav {
         position: absolute;
-        display: flex;
+        display: none;
         height: calc(100vh - $heightHeader);
         width: 68.267vw;
         top: $heightHeader;
