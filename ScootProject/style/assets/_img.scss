@@ -12,13 +12,13 @@
   aspect-ratio: 1/1;
   background-color: $yellow;
   overflow: hidden;
-  // Can be improve
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .medium {
   width: 25.600vw;
-
 }
 .small {
   width: 14.933vw;
