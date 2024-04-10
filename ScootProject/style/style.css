@@ -99,6 +99,10 @@ button {
   font-weight: 700;
 }
 
+.footer {
+  background-color: #333A44;
+}
+
 header {
   height: 17.067vw;
   display: grid;
