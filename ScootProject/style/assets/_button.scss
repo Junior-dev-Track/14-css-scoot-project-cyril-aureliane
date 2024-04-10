@@ -1,0 +1,22 @@
+.button {
+    background-color: $yellow;
+
+    display: block;
+
+    width: 100%;
+
+    //padding: 10px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    //transition: background-color 0.3s, color 0.3s;
+}
+button {
+    text-decoration: none;
+    background-color: unset;
+    font-family: unset;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
