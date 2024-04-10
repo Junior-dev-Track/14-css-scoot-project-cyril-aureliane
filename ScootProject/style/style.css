@@ -10,6 +10,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  overflow: hidden;
 }
 
 body {
@@ -18,39 +19,60 @@ body {
   font-family: Inter, Arial, sans-serif;
 }
 
+.container {
+  width: 100vw;
+  padding: 0 8.533vw;
+}
+
 .h1 {
   font-family: "Space Mono", monospace;
   font-size: 3.5rem;
   line-height: 1em;
   letter-spacing: -0.045em;
+  color: white;
 }
 
 .h2 {
   font-family: "Space Mono", monospace;
-  font-size: 48px;
-  letter-spacing: -2.14px;
+  font-size: 3rem;
+  letter-spacing: -0.045em;
+  color: #495567;
 }
 
 .h3 {
   font-family: "Space Mono", monospace;
-  font-size: 40px;
+  font-size: 2.5rem;
   letter-spacing: -1.79px;
+  color: #495567;
 }
 
 .h4 {
   font-family: "Space Mono", monospace;
-  font-size: 24px;
-  letter-spacing: 1.07px;
+  font-size: 1.5rem;
+  letter-spacing: -0.045em;
 }
 
 .p {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.938rem;
+  line-height: 1.667em;
+}
+
+.dimGrey {
+  color: #939CAA;
 }
 
 img {
   height: 100px;
+  display: none;
+}
+
+.round {
+  border-radius: 200px;
+  width: 82.933vw;
+  aspect-ratio: 1/1;
+  background-color: #FCB72B;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

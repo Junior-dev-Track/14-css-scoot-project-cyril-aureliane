@@ -7,7 +7,7 @@ function responsiveSize(size,screenSize) {
     console.log(result)
 }
 // ** Unit
-let screenSize = [576, 768, 1024, 1226, 1440 ]
+let screenSize = [375, 768, 1024, 1226, 1440 ]
 let [   phone,
         ipadMini,
         tablet,
@@ -16,4 +16,4 @@ let [   phone,
 
 // ** Call to fonction
 
-responsiveSize(100, phone)
+responsiveSize(32, phone)

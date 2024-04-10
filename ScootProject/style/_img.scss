@@ -1,3 +1,12 @@
 img {
   height: 100px;
+  display: none;
+}
+
+.round {
+  border-radius: 200px;
+  width: 82.933vw;
+  aspect-ratio: 1/1;
+  background-color: #FCB72B;
+  overflow: hidden;
 }

@@ -12,6 +12,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  overflow: hidden;
 }
 body {
   height: 100vh;
@@ -19,4 +20,9 @@ body {
   font-family: Inter, Arial, sans-serif;
   //background-color: $white;
   //color: $black;
+}
+
+.container {
+  width: 100vw;
+  padding: 0 8.533vw;
 }
