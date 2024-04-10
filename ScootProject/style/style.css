@@ -57,10 +57,8 @@ body {
 
 .img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .round {
@@ -85,7 +83,10 @@ body {
 .button {
   background-color: #FCB72B;
   display: block;
-  width: 100%;
+  min-width: 180px;
+  width: 48vw;
+  min-height: 53px;
+  height: 14.133vw;
   text-align: center;
   text-transform: capitalize;
 }
@@ -141,6 +142,20 @@ header .burger {
 header .burger .line {
   height: 20%;
   background-color: #FCB72B;
+}
+
+article {
+  background-color: #F2F5F9;
+  margin: 50px 0; /* a mettre en vw */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+article .p {
+  color: #495567;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,11 @@
 .button {
     background-color: $yellow;
-
     display: block;
+    min-width: 180px;
+    width: 48.000vw;
+    min-height: 53px;
+    height: 14.133vw;
 
-    width: 100%;
-
-    //padding: 10px 20px;
     text-align: center;
     text-transform: capitalize;
     //transition: background-color 0.3s, color 0.3s;
