@@ -1,7 +1,7 @@
 // Unit
 let fontSize=15;
 let lineHeight=25;
-let letterSpacing=25;
+let letterSpacing=0;
 
 let screenSize = [576, 768, 1024, 1226, 1440 ]
 let [phone, ipadMini, tablet, laptop, desktop ] = screenSize

@@ -15,6 +15,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  color: #495567;
   font-family: Inter, Arial, sans-serif;
   overflow-y: scroll;
 }
@@ -65,8 +66,10 @@ body {
 
 .img {
   height: 100%;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 .round {
@@ -77,4 +80,25 @@ body {
   overflow: hidden;
 }
 
-/*# sourceMappingURL=style.css.map */
+header {
+  height: 17.067vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  display: none;
+}
+header .logo {
+  color: black;
+}
+header .burger {
+  height: 16px;
+  width: 19px;
+  display: flex;
+  flex-direction: column;
+}
+header .burger .line {
+  height: 20%;
+  background-color: #FCB72B;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+header {
+    height: 17.067vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    nav {
+        display: none;    
+    }
+
+    .logo {
+        color: black;
+    }
+
+    .burger {
+        height: 16px;
+        width: 19px;
+        display: flex;
+        flex-direction: column;
+
+        .line {
+            height: 20%;
+            background-color: $yellow;
+        }
+
+}
+
+}
+
+
