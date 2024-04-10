@@ -1,17 +1,28 @@
 @charset "utf-8";
 
-@import "variables.scss";
-@import "reset.scss";
-@import "fonts.scss";
-@import "img.scss";
+// Global
+@import "global/variables";
+@import "global/reset";
+
+// Font
+@import "font/fonts";
+
+// Assets
+@import "assets/img";
+
+// Commponent
+@import "component/footer";
+@import "component/nav";
+
+
 
 // MediaQuerries
 @media screen and (max-width: 768px){
-  @import "mobile.scss";
+  @import "mediaQuerries/mobile";
 }
 @media screen and (min-width: 769px) and (max-width: 1439px){
-  @import "tablet.scss";
+  @import "mediaQuerries/tablet";
 }
 @media screen and (min-width: 1440px) {
-  @import "desktop.scss";
+  @import "mediaQuerries/desktop";
 }
