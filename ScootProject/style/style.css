@@ -65,6 +65,7 @@ body {
 .round {
   border-radius: 50%;
   width: 82.933vw;
+  max-width: 445px;
   aspect-ratio: 1/1;
   background-color: #FCB72B;
   overflow: hidden;
@@ -75,19 +76,19 @@ body {
 
 .medium {
   width: 25.6vw;
+  max-width: 96px;
 }
 
 .small {
   width: 14.933vw;
+  max-width: 96px;
 }
 
 .button {
   background-color: #FCB72B;
   display: block;
-  min-width: 180px;
-  width: 48vw;
-  min-height: 53px;
-  height: 14.133vw;
+  width: 180px;
+  height: 53px;
   display: flex;
   justify-content: center;
   align-items: center;

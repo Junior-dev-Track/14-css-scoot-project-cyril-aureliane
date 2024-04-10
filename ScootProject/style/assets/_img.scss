@@ -9,6 +9,7 @@
 .round {
   border-radius: 50%;
   width: 82.933vw;
+  max-width: 445px;
   aspect-ratio: 1/1;
   background-color: $yellow;
   overflow: hidden;
@@ -19,7 +20,10 @@
 
 .medium {
   width: 25.600vw;
+  max-width: 96px;
+
 }
 .small {
   width: 14.933vw;
+  max-width: 96px;
 }
