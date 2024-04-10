@@ -26,6 +26,9 @@ body {
 
 .container {
   width: 100vw;
+}
+
+.container > :not(.topMain, .superNav) {
   padding: 0 8.533vw;
 }
 
