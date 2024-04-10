@@ -5,7 +5,9 @@
     width: 48.000vw;
     min-height: 53px;
     height: 14.133vw;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     text-transform: capitalize;
     //transition: background-color 0.3s, color 0.3s;
