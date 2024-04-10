@@ -85,21 +85,23 @@ body {
 
 header {
   height: 17.067vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   align-items: center;
-  justify-content: center;
 }
 header nav {
   display: none;
 }
 header .logo {
-  height: 5.333vw;
   width: 17.067vw;
+  justify-self: center;
 }
 header .burger {
-  height: 16px;
-  width: 19px;
+  height: 4.267vw;
+  width: 5.067vw;
+  justify-self: start;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 header .burger .line {

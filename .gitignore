@@ -1,2 +1,5 @@
 node_modules
 Instructions
+scripts/fontSizeConvert.js
+scripts/widthSizeConvert.js
+*.map

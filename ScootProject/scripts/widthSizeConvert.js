@@ -16,8 +16,8 @@ let [   phone,
 
 // ** Call to fonction
 
-
+<<<<<<< HEAD
 responsiveSize(64, phone)
-
+=======
 responsiveSize(96, phone)
-
+>>>>>>> e571c5d (* . img .round uprgrade)
