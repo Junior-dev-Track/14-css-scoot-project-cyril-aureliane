@@ -67,8 +67,10 @@ body {
 
 .img {
   height: 100%;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 .round {
@@ -98,7 +100,8 @@ header nav {
   display: none;
 }
 header .logo {
-  color: black;
+  height: 5.333vw;
+  width: 17.067vw;
 }
 header .burger {
   height: 16px;
@@ -109,6 +112,4 @@ header .burger {
 header .burger .line {
   height: 20%;
   background-color: #FCB72B;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
