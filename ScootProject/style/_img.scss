@@ -1,12 +1,14 @@
 img {
-  height: 100px;
+  object-fit: contain;
+  object-position: left center;
   //display: none;
 }
 
 .round {
-  border-radius: 200px;
+  border-radius: 300px;
   width: 82.933vw;
   aspect-ratio: 1/1;
   background-color: #FCB72B;
+  overflow: hidden;
 
 }
