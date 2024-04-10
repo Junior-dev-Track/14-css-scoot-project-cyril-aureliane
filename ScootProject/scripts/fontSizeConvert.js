@@ -1,19 +1,8 @@
 // Unit
-let fontSize=15;
-let lineHeight=25;
-let letterSpacing=0;
-<<<<<<< HEAD
+let fontSize=24;
+let lineHeight=28;
+let letterSpacing=-1.07;
 
-let screenSize = [576, 768, 1024, 1226, 1440 ]
-let [phone, ipadMini, tablet, laptop, desktop ] = screenSize
-
-
-function responsiveSize(size, ) {
-
-}
-
-=======
->>>>>>> e571c5d (* . img .round uprgrade)
 
 // Function
 // convert fontSize in rem ,lineHeight & letterSpacing in em unit
@@ -30,5 +19,3 @@ function converter(fontSize,lineHeight,letterSpacing){
     console.log(result);
 }
 converter(fontSize,lineHeight,letterSpacing)
-
-// faire une convertion px -> vw
