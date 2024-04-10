@@ -20,8 +20,9 @@ body {
 
 .h1 {
   font-family: "Space Mono", monospace;
-  font-size: 56px;
-  letter-spacing: -2.5px;
+  font-size: 3.5rem;
+  line-height: 1em;
+  letter-spacing: -0.045em;
 }
 
 .h2 {
