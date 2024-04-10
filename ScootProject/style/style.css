@@ -53,6 +53,7 @@ body {
   font-size: 0.938rem;
   line-height: 1.667em;
   color: #939CAA;
+  letter-spacing: 0;
 }
 
 .img {
@@ -107,7 +108,7 @@ button {
 }
 
 header {
-  height: 17.067vh;
+  height: 17.067vw;
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
@@ -115,9 +116,9 @@ header {
 header .nav {
   position: absolute;
   display: flex;
-  height: 82.933vh;
+  height: calc(100vh - 17.067vw);
   width: 68.267vw;
-  top: 17.067vh;
+  top: 17.067vw;
   left: 0;
   padding: 10.667vw 8.533vw 8.533vw 8.533vw;
   background-color: #495567;
@@ -126,6 +127,14 @@ header .nav {
 }
 header .nav a {
   font-size: 1.125rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header .nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5.333vw;
 }
 header .logo {
   width: 17.067vw;
@@ -158,4 +167,16 @@ article .p {
   color: #495567;
 }
 
-/*# sourceMappingURL=style.css.map */
+article {
+  background-color: #F2F5F9;
+  margin: 50px 0; /* a mettre en vw */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+article .p {
+  color: #495567;
+}/*# sourceMappingURL=style.css.map */

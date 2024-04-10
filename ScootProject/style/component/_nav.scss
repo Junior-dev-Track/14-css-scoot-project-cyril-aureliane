@@ -18,6 +18,15 @@ header {
 //display: none;
         a {
             font-size: 1.125rem;
+            color: white;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 5.333vw;
         }
     }
 

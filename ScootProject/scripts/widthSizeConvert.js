@@ -16,4 +16,4 @@ let [   phone,
 
 // ** Call to fonction
 
-responsiveSize(53, phone)
+responsiveSize(64, phone)
