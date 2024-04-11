@@ -31,3 +31,20 @@ body {
   color: $dimGrey;
   letter-spacing: 0;
 }
+
+.title5{
+  color: white;
+  font-size: 2.000rem;
+  line-height: 1.000em;
+  letter-spacing: -0.045em;
+  text-align: center;
+}
+
+.internLinkType {
+  font-family: "Space Mono", monospace;
+  font-weight : 700;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: unset;
+}

@@ -68,6 +68,23 @@ body {
   letter-spacing: 0;
 }
 
+.title5 {
+  color: white;
+  font-size: 2rem;
+  line-height: 1em;
+  letter-spacing: -0.045em;
+  text-align: center;
+}
+
+.internLinkType {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: unset;
+}
+
 .img {
   height: 100%;
   object-fit: cover;
@@ -121,20 +138,15 @@ button {
 
 .footer {
   background-color: darkslateblue;
-  margin-top: 120px;
+  margin-top: 32vw;
 }
 .footer .callToAction {
   background-color: #495567;
-  padding: 88px 0;
+  padding: 23.467vw 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
-}
-.footer .title2 {
-  color: white;
-  font-size: 32px;
-  text-align: center;
+  gap: 10.667vw;
 }
 .footer .store {
   display: flex;
@@ -144,32 +156,25 @@ button {
 }
 .footer .socials {
   background-color: #333A44;
-  padding: 64px 0 88px;
+  padding: 17.067vw 0 23.476vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .footer .logo {
-  width: 107.82px;
-  margin-bottom: 41.44px;
+  width: 28.752vw;
+  margin-bottom: 11.051vw;
 }
 .footer .internLink {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  text-transform: capitalize;
+  gap: 4.267vw;
   text-align: center;
 }
-.footer .internLink a {
-  color: #939CAA;
-  font-size: 15px;
-  font-weight: 700;
-  text-decoration: none;
-}
 .footer .externLink {
-  margin-top: 85px;
-  width: 120px;
+  margin-top: 22.667vw;
+  width: 32vw;
   display: flex;
   justify-content: space-between;
 }

@@ -1,66 +1,42 @@
 .footer {
   background-color: darkslateblue;
-  margin-top: 120px;
+  margin-top: 32.000vw;
 
   .callToAction {
     background-color: $darkNavy;
-    padding: 88px 0;
+    padding: 23.467vw 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 40px
-  }
-  .title2 {
-    color: white;
-    font-size: 32px;
-    text-align: center;
+    gap: 10.667vw;
   }
   .store {
     display: flex;
     justify-content: center;
     align-items: center;
     gap :12.82px;
-    //background-color: aqua;
   }
-
   .socials {
     background-color: $black;
-    //Height: 438px;
-    padding: 64px 0 88px;
+    padding: 17.067vw 0 23.476vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //gap: 40px
   }
-
   .logo {
-    width: 107.82px;
-    margin-bottom: 41.44px;
+    width: 28.752vw;
+    margin-bottom: 11.051vw;
   }
-
-
-
-
-
   .internLink{
     display: flex;
     flex-direction: column;
-    gap: 16px;
-
-    text-transform: capitalize;
+    gap: 4.267vw;
     text-align: center;
-
-    a {
-      color: $dimGrey;
-      font-size: 15px;
-      font-weight: 700;
-      text-decoration: none;
-    }
   }
   .externLink {
-    margin-top: 85px;
-    width: 120px;
+    margin-top:  22.667vw;
+    width: 32.000vw;
     display: flex;
     justify-content: space-between;
   }
