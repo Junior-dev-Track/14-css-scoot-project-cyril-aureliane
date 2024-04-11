@@ -36,28 +36,28 @@ body {
   overflow: hidden;
 }
 
-.h1 {
+.title1 {
   font-size: 3.5rem;
   line-height: 1em;
   color: white;
 }
 
-.h2 {
+.title2 {
   font-size: 3rem;
   line-height: 1em;
 }
 
-.h3 {
+.title3 {
   font-size: 2.5rem;
   line-height: 1.2em;
 }
 
-.h4 {
+.title4 {
   font-size: 1.5rem;
   line-height: 1.167em;
 }
 
-.p {
+.paragraph {
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.938rem;
   line-height: 1.667em;
@@ -227,8 +227,17 @@ article {
   justify-content: space-between;
   text-align: center;
 }
-article .p {
+article .Paragraph {
   color: #495567;
+}
+
+.topMain {
+  max-height: 42.667vw;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

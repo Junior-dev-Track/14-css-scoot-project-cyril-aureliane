@@ -10,10 +10,8 @@ header {
     backdrop-filter: blur(2px);
     width: 100vw;
     height: calc(100vh - $heightHeader);
-    //display: none;
     grid-column: 1/ span 3;
     grid-row: 2 ;
-
     position: absolute;
     left: -1200px;
 }
@@ -55,12 +53,10 @@ header {
 
     width: 5.067vw;
     height: 4.267vw;
-    //margin: 24px;
 
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .line {
