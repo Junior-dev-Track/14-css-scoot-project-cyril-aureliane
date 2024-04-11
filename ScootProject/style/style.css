@@ -25,7 +25,7 @@ body {
   width: 100vw;
 }
 
-.container > :not(.topMain, .superNav, .logo, .topMainHome) {
+.container > :not(.top, .superNav, .logo) {
   padding: 0 8.533vw;
 }
 
@@ -88,7 +88,6 @@ body {
 .img {
   height: 100%;
   object-fit: cover;
-  object-position: center center;
 }
 
 .round {
@@ -290,27 +289,40 @@ article .paragraph {
   color: #495567;
 }
 
-.topMain {
-  height: 42.667vw;
+.top {
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  overflow: hidden;
 }
 
-.topMainHome {
+.home {
   height: 173.333vw;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   background-color: #FCB72B;
 }
 
-.top {
+.secondary {
+  height: 42.667vw;
+  background-color: #FCB72B;
+}
+
+.topBackground {
+  height: 100%;
+  width: 100%;
+  object-position: center center;
   grid-column: 1/span 3;
   grid-row: 1/span 3;
 }
 
-.topMainContent {
+.topColor {
+  grid-column: 1/span 3;
+  grid-row: 1/span 3;
+  background-color: rgba(73, 85, 103, 0.8);
+}
+
+.topContent {
   grid-column: 2/span 1;
   grid-row: 2/span 1;
   color: white;
@@ -318,13 +330,6 @@ article .paragraph {
 
 .bottomCentered {
   object-position: bottom center;
-}
-
-.topMainColor {
-  height: 100%;
-  grid-column: 1/span 3;
-  grid-row: 1/span 3;
-  background-color: rgba(73, 85, 103, 0.8);
 }
 
 .section {
