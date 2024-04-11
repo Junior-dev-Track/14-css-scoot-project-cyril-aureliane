@@ -55,7 +55,7 @@ header {
 
     width: 5.067vw;
     height: 4.267vw;
-    margin: 24px;
+    //margin: 24px;
 
     display: flex;
     justify-content: center;
@@ -64,8 +64,8 @@ header {
 }
 
 .line {
-    width: 5.251vw;
-    height: 0.984vw;
+    width: 19.69px;
+    height: 3.69px;
     background-color: $yellow;
     transition: all 0.3s ease;
 }
@@ -73,16 +73,18 @@ header {
 .line::before, .line::after {
     content: '';
     position: absolute;
-    width: 5.251vw;
-    height: 0.984vw;
+    width: 19.69px;
+    height: 3.69px;
     background-color: $yellow;
     transition: all 0.5s ease;
 }
+
+// 6.15px ::before et ::after height + 2.14px ( arbitraire en fonction de figma )
 .line::before{
-    transform: translateY(15px);
+    transform: translateY(6.15px);
 }
 .line::after {
-    transform: translateY(-15px);
+    transform: translateY(-6.15px);
 }
 
 .active {
@@ -100,4 +102,5 @@ header {
 .switch {
     left: 0px;
     top: $heightHeader;
+    transition: all 0.35s ease;
 }
