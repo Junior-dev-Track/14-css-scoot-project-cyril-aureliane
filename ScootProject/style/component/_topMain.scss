@@ -33,17 +33,45 @@
 }
 
 .topMainHome {
-    max-height: 173.333vw;
+    min-height: 173.333vw;
     width: 100%;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
-    
+    grid-template-rows: repeat(3, auto);
+
     .img {
         width: 100%;
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 4;  
+    }
+
+    .topMainColor {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color: rgba($darkNavy, 0.8);
+    }
+
+    .containerTopMain {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 0 8.533vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 7%;
+
+        p {
+            color: white;
+        }
+
     }
 }
