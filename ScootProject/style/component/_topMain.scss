@@ -42,6 +42,34 @@
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 4;
+        grid-column: 1/1;
+        grid-row: 1/4;
+    }
+
+    .topMainColor {
+        width: 100%;
+        grid-column: 1/1;
+        grid-row: 1/4;
+        background-color: rgba($darkNavy, 0.8);
+    }
+
+    .containerTopMain {
+        grid-column: 1/1;
+        grid-row: 2/3;
+        padding: 0 8.533vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 7%;
+
+        p {
+            color: white;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
     }
 }
 
