@@ -117,7 +117,53 @@ button {
 }
 
 .footer {
+  background-color: darkslateblue;
+  margin-top: 120px;
+}
+.footer .title2 {
+  color: white;
+  font-size: 31px;
+  text-align: center;
+}
+
+.callToAction {
+  background-color: #495567;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.82px;
+}
+
+.socials {
   background-color: #333A44;
+  width: 375px;
+  Height: 438px;
+  padding: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.internLink {
+  text-align: center;
+}
+.internLink a {
+  color: white;
+  text-decoration: none;
+}
+
+.externLink {
+  display: flex;
+  gap: 12.82px;
 }
 
 header {

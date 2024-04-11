@@ -1,3 +1,56 @@
 .footer {
-  background-color: $black;
+  background-color: darkslateblue;
+  margin-top: 120px;
+
+  .title2{
+    color: white;
+    font-size: 31px;
+    text-align: center;
+  }
+
 }
+
+.callToAction {
+  background-color: $darkNavy;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px
+}
+
+
+.store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap :12.82px;
+  //background-color: aqua;
+}
+
+.socials {
+  background-color: $black;
+  width: 375px;
+  Height: 438px;
+  padding: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.internLink{
+  text-align: center;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.externLink {
+  display: flex;
+  //flex-direction: row;
+  //justify-content: center;
+  //align-items: center;
+  gap :12.82px;
+  //background-color: aqua;
+}
+
