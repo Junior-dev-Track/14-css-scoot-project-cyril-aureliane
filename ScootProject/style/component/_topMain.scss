@@ -11,7 +11,7 @@
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
-        grid-row-end: 4;
+        grid-row-end: 4;  
     }
 
     .title1 {
@@ -29,6 +29,21 @@
         grid-row-end: 4;
         background-color: rgba($darkNavy, 0.8);
     }
+
 }
 
-
+.topMainHome {
+    max-height: 173.333vw;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    .img {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;  
+    }
+}
