@@ -30,7 +30,7 @@
 }
 
 .topMainHome {
-    max-height: 173.333vw;
+    min-height: 173.333vw;
     width: 100%;
     overflow: hidden;
     display: grid;
@@ -38,10 +38,6 @@
 
     .img {
         width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;
         grid-column: 1/1;
         grid-row: 1/4;
     }
