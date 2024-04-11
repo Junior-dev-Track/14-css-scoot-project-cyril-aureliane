@@ -1,71 +1,43 @@
 .topMain {
+    height: 42.667vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 42.667vw;
-
-    .top {
-        width: 100%;
-        overflow: hidden;
-        grid-column: 1 / 4;
-        grid-row : 1/ 4;
-    }
-    .bottomCentered {
-        object-position: bottom center;
-    }
-
-    .topMainColor {
-        height: 100%;
-        width: 100%;
-        grid-column: 1 / span 3;
-        grid-row: 1 / span 3;
-        background-color: rgba($darkNavy, 0.8);
-    }
-
-    .title1 {
-        grid-column: 2 / span 1;
-        grid-row: 2 / span 1;
-    }
-
 }
 
 .topMainHome {
-    min-height: 173.333vw;
-    width: 100%;
-    overflow: hidden;
+    height: 173.333vw;
     display: grid;
-    grid-template-columns: 1fr;
-
-    .img {
-        width: 100%;
-        grid-column: 1/1;
-        grid-row: 1/4;
-    }
-
-    .topMainColor {
-        width: 100%;
-        grid-column: 1/1;
-        grid-row: 1/4;
-        background-color: rgba($darkNavy, 0.8);
-    }
-
-    .containerTopMain {
-        grid-column: 1/1;
-        grid-row: 2/3;
-        padding: 0 8.533vw;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        gap: 7%;
-
-        p {
-            color: white;
-        }
-
-        h1 {
-            font-size: 3rem;
-        }
-    }
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #FCB72B;
 }
 
+.top {
+    //height: 100%;
+    //width: 100%;
+    grid-column: 1 / span 3;
+    grid-row : 1/ span 3;
+}
+
+.topMainContent {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    color: white;
+
+    //display: none;
+}
+
+.bottomCentered {
+    object-position: bottom center;
+}
+
+.topMainColor {
+    height: 100%;
+    //width: 100%;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+    background-color: rgba($darkNavy, 0.8);
+
+    //display: none;
+}

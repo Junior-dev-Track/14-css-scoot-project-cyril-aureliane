@@ -286,50 +286,59 @@ article {
   justify-content: space-between;
   text-align: center;
 }
-article .Paragraph {
+article .paragraph {
   color: #495567;
 }
 
 .topMain {
+  height: 42.667vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  height: 42.667vw;
 }
-.topMain .top {
-  width: 100%;
-  overflow: hidden;
-  grid-column: 1/4;
-  grid-row: 1/4;
+
+.topMainHome {
+  height: 173.333vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #FCB72B;
 }
-.topMain .bottomCentered {
+
+.top {
+  grid-column: 1/span 3;
+  grid-row: 1/span 3;
+}
+
+.topMainContent {
+  grid-column: 2/span 1;
+  grid-row: 2/span 1;
+  color: white;
+}
+
+.bottomCentered {
   object-position: bottom center;
 }
-.topMain .topMainColor {
+
+.topMainColor {
   height: 100%;
-  width: 100%;
   grid-column: 1/span 3;
   grid-row: 1/span 3;
   background-color: rgba(73, 85, 103, 0.8);
 }
-.topMain .title1 {
-  grid-column: 2/span 1;
-  grid-row: 2/span 1;
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12vw;
 }
 
-.topMainHome {
-  max-height: 173.333vw;
-  width: 100%;
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.topMainHome .img {
-  width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 4;
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 35vw;
 }
 
 /*# sourceMappingURL=style.css.map */
