@@ -1,28 +1,44 @@
+/*
+J'ai  essayer de positionne correctement les truc mais ca m'as saouler ça n'as pas été fait en vu de faire du CSS mais juste par ce que c'étai jolie !
+
+*/
+
+
+
 .top {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    overflow: hidden;
+    //display: grid;
+    //grid-template-columns: repeat(3, 1fr);
+    //grid-template-rows: repeat(3, 1fr);
+    //overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
 }
 .home {
     height: 173.333vw;
     background-color: #FCB72B;
+    overflow: hidden;
+
 }
 
+#home{
+    background-image: url("../assets/png/background-home.png");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size : 600%;
+    background-position-y: 96%;
+    background-position-x: 57%;
+
+}
 .secondary {
     height: 42.667vw;
     background-color: #FCB72B;
 }
 
 .topBackground {
-    height: 100%;
-    width: 100%;
-    object-position: center center;
     grid-column: 1 / span 3;
     grid-row : 1/ span 3;
-
 }
 .topColor {
     grid-column: 1 / span 3;
@@ -33,11 +49,10 @@
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
     color: white;
+    display:none
 }
 
-.bottomCentered {
-    object-position: bottom center;
-}
+
 
 .scaleX {
     //transform: scale(150%);

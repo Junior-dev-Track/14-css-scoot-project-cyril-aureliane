@@ -17,7 +17,7 @@
 }
 body {
   height: 100vh;
-  width: 100vw;
+  width: 375px;
   background-color: white;
   overflow-y: scroll;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .container > :not(#{$blackList}) {
-  padding: 0 8.533vw;
+  //padding: 0 8.533vw;
 }
 
 .overflowNone {
