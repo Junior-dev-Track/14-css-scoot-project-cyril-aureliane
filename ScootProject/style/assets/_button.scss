@@ -20,3 +20,17 @@ button {
     font-size: 15px;
     font-weight: 700;
 }
+
+.button:hover {
+    background-color: $lightYellow;
+}
+
+.button:active {
+    background-color: unset;
+    border: 3px solid #FCB72B;
+
+    button {
+        color: $yellow;
+    }
+}
+

@@ -53,11 +53,14 @@ body {
 .title3 {
   font-size: 2.5rem;
   line-height: 1.2em;
+  letter-spacing: -0.045em;
+  font-weight: 700;
 }
 
 .title4 {
   font-size: 1.5rem;
   line-height: 1.167em;
+  letter-spacing: -0.045em;
 }
 
 .paragraph {
@@ -74,6 +77,12 @@ body {
   line-height: 1em;
   letter-spacing: -0.045em;
   text-align: center;
+}
+
+.title6 {
+  font-size: 1.125rem;
+  line-height: 1.333em;
+  letter-spacing: -0.045em;
 }
 
 .internLinkType {
@@ -133,6 +142,18 @@ button {
   cursor: pointer;
   font-size: 15px;
   font-weight: 700;
+}
+
+.button:hover {
+  background-color: #FFF4DF;
+}
+
+.button:active {
+  background-color: unset;
+  border: 3px solid #FCB72B;
+}
+.button:active button {
+  color: #FCB72B;
 }
 
 .footer {
@@ -275,18 +296,51 @@ header {
   transition: all 0.35s ease;
 }
 
-article {
+.article {
   background-color: #F2F5F9;
   margin: 50px 0; /* a mettre en vw */
-  padding: 30px;
+  padding: 40px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
+  gap: 24px;
 }
-article .paragraph {
+.article .title6 {
+  text-align: left;
+}
+.article .paragraph {
   color: #495567;
+  text-align: left;
+}
+
+.arrow {
+  height: 8px;
+  aspect-ratio: 1/1;
+  border: 3px solid #FCB72B;
+  transform: rotate(-45deg);
+}
+
+.up {
+  border-bottom: none;
+  border-left: none;
+}
+
+.down {
+  border-top: none;
+  border-right: none;
+}
+
+.arrow:hover {
+  border-color: #939CAA;
+}
+
+.arrow:active {
+  border-color: #F2F5F9;
+}
+
+.aTitre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .top {
@@ -319,12 +373,22 @@ article .paragraph {
 .topColor {
   grid-column: 1/span 3;
   grid-row: 1/span 3;
-  background-color: rgba(73, 85, 103, 0.8);
+  background-color: rgba(47, 59, 89, 0.8);
 }
 
 .topContent {
-  grid-column: 2/span 1;
-  grid-row: 2/span 1;
+  grid-column: 1/span 3;
+  grid-row: 1/span 3;
+  color: white;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  text-align: center;
+}
+.topContent p {
   color: white;
 }
 

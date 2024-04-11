@@ -1,7 +1,7 @@
 // Unit
-let fontSize=32;
-let lineHeight=32;
-let letterSpacing=1.43;
+let fontSize=18;
+let lineHeight=24;
+let letterSpacing=-0.8035714030265808;
 
 
 // Function
