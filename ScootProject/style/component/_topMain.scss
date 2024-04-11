@@ -1,77 +1,47 @@
 .topMain {
-    max-height: 42.667vw;
-    width: 100%;
-    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    height: 42.667vw;
 
-    .img {
+    .top {
         width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;  
+        overflow: hidden;
+        grid-column: 1 / 4;
+        grid-row : 1/ 4;
+    }
+    .bottomCentered {
+        object-position: bottom center;
+    }
+
+    .topMainColor {
+        height: 100%;
+        width: 100%;
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 3;
+        background-color: rgba($darkNavy, 0.8);
     }
 
     .title1 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    
-    .topMainColor {
-        width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        background-color: rgba($darkNavy, 0.8);
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
     }
 
 }
 
 .topMainHome {
-    min-height: 173.333vw;
+    max-height: 173.333vw;
     width: 100%;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
 
     .img {
         width: 100%;
         grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 4;  
-    }
-
-    .topMainColor {
-        width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 4;
-        background-color: rgba($darkNavy, 0.8);
-    }
-
-    .containerTopMain {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        padding: 0 8.533vw;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        gap: 7%;
-
-        p {
-            color: white;
-        }
-
     }
 }
+
