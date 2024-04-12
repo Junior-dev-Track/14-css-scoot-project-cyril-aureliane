@@ -1,3 +1,25 @@
 .secondary {
     height: 26.042vw;
 }
+
+
+.sectionArticle {
+    gap: 2vw;
+
+    .job {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .textJob {
+        text-align: left;
+    }
+}
+
+.section {
+
+    .worldButton {
+        display: none;
+    }
+}
