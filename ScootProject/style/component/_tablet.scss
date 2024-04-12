@@ -18,13 +18,27 @@
 }
 
 .section {
+    
+    gap: 5vw;
 
     .worldButton {
         display: none;
     }
+    .sousSection {
+        .paragraph {
+            padding: 0 15vw;
+        }
+    }
+
+    > .paragraph {
+        padding: 0 5vw;
+    }
+
 }
 
 .medium {
     width: 100px;
     max-width: 96px;
 }
+
+    
