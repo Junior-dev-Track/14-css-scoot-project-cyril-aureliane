@@ -1,3 +1,18 @@
+.hide, .show {
+  animation: all 0.35s ease;
+}
+.hide {
+  animation-name: hide;
+  height: 0; /* Hauteur à laquelle le bloc doit rétrécir pour disparaitre */
+  opacity: 0;
+}
+.show {
+  animation-name: show;
+  height: auto; /* Hauteur finale */
+  opacity: 1;
+}
+
+
 .article {
   width: 100%;
   background-color: $snow;
@@ -8,9 +23,6 @@
   text-align: center;
   gap: 24px;
 
-  .alignLeft {
-    text-align: left;
-  }
   .paragraph {
     color: $darkNavy;
   }

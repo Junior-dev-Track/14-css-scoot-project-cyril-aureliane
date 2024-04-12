@@ -1,9 +1,14 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .test {
   background-color: red;
   height: 100px;
   aspect-ratio: 1/1;
+}
+
+.none {
+  display: none;
 }
 
 * {
@@ -106,10 +111,13 @@ body {
   font-weight: 700;
 }
 
+.alignLeft {
+  text-align: left;
+}
+
 .img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .round {
@@ -169,6 +177,34 @@ button {
   color: #FCB72B;
 }
 
+@keyframes show {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  50% {
+    height: 50%;
+    opacity: 0.5;
+  }
+  100% {
+    height: auto;
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  0% {
+    height: auto;
+    opacity: 1;
+  }
+  50% {
+    height: 50%;
+    opacity: 0.5;
+  }
+  100% {
+    height: 0; /* Hauteur à laquelle le bloc doit rétrécir pour disparaitre */
+    opacity: 0;
+  }
+}
 .footer {
   background-color: darkslateblue;
   margin-top: 32vw;
@@ -221,8 +257,7 @@ header {
 
 .superNav {
   background-color: rgba(0, 0, 0, 0.7);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   width: 100vw;
   height: calc(100vh - 17.067vw);
   grid-column: 1/span 3;
@@ -310,6 +345,22 @@ header {
   transition: all 0.35s ease;
 }
 
+.hide, .show {
+  animation: all 0.35s ease;
+}
+
+.hide {
+  animation-name: hide;
+  height: 0; /* Hauteur à laquelle le bloc doit rétrécir pour disparaitre */
+  opacity: 0;
+}
+
+.show {
+  animation-name: show;
+  height: auto; /* Hauteur finale */
+  opacity: 1;
+}
+
 .article {
   width: 100%;
   background-color: #F2F5F9;
@@ -319,9 +370,6 @@ header {
   align-items: center;
   text-align: center;
   gap: 24px;
-}
-.article .alignLeft {
-  text-align: left;
 }
 .article .paragraph {
   color: #495567;
@@ -389,8 +437,7 @@ header {
 .topBackground {
   height: 100%;
   width: 100%;
-  -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
   grid-column: 1/span 3;
   grid-row: 1/span 3;
 }
@@ -418,8 +465,7 @@ header {
 }
 
 .bottomCentered {
-  -o-object-position: bottom center;
-     object-position: bottom center;
+  object-position: bottom center;
 }
 
 .section {
@@ -475,4 +521,6 @@ header {
 
 .sousSection .paragraph {
   margin-top: 30px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
