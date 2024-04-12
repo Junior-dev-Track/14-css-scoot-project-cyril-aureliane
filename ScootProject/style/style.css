@@ -68,10 +68,6 @@ body {
   color: #939CAA;
 }
 
-a {
-  font-family: "Space Mono", monospace;
-}
-
 .footerLink {
   font-family: "Space Mono", monospace;
   font-weight: 700;
@@ -531,22 +527,18 @@ header {
     letter-spacing: -0.045em;
   }
   .title4 {
-    font-size: 1.5rem;
-    line-height: 1.167em;
+    /*  //title 4 mais pas mobile
+      font-size: 1.500rem;
+      line-height: 1.167em;
+      letter-spacing: -0.045em;*/
+    font-size: 1.125rem;
+    line-height: 1.333em;
     letter-spacing: -0.045em;
   }
   .paragraph {
     font-size: 0.938rem;
     line-height: 1.667em;
     letter-spacing: 0;
-  }
-  .title5 {
-    font-size: 2rem;
-  }
-  .title6 {
-    font-size: 1.125rem;
-    line-height: 1.333em;
-    letter-spacing: -0.045em;
   }
 }
 
