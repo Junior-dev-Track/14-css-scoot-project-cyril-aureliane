@@ -1,17 +1,18 @@
 .article {
+  width: 100%;
   background-color: $snow;
-  margin: 50px 0; /* a mettre en vw */
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 24px;
 
-  .title6 {
+  .alignLeft {
     text-align: left;
   }
   .paragraph {
     color: $darkNavy;
-    text-align: left;
   }
 }
 .arrow {
@@ -42,4 +43,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.job {
+  gap: 2vw;
+  margin: 0;
+
+  .button {
+    margin-top: 5px;
+    width: 100%;
+  }
 }
