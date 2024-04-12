@@ -5,7 +5,7 @@
 @import "global/reset";
 
 // Font
-@import "font/fontsStyles";
+@import "font/fonts";
 @import "font/fonts";
 
 // Assets
@@ -24,10 +24,10 @@
 
 
 // MediaQuerries
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   @import "mediaQuerries/mobile";
 }
-@media screen and (min-width: 769px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
   @import "mediaQuerries/tablet";
 }
 @media screen and (min-width: 1440px) {
