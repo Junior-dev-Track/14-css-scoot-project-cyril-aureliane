@@ -400,10 +400,14 @@ header {
   border-color: #F2F5F9;
 }
 
-.aTitre {
+.articleTitre {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 66.933vw;
+}
+.articleTitre .title6 {
+  width: 58.4vw;
 }
 
 .job {
@@ -515,7 +519,7 @@ header {
 .sectionArticle {
   gap: 4vw;
 }
-.sectionArticle .title3 {
+.sectionArticle .title3mobile {
   padding: 25px 0;
 }
 

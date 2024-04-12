@@ -12,7 +12,6 @@
   opacity: 1;
 }
 
-
 .article {
   width: 100%;
   background-color: $snow;
@@ -27,6 +26,7 @@
     color: $darkNavy;
   }
 }
+
 .arrow {
   height: 8px;
   aspect-ratio: 1/1;
@@ -41,20 +41,22 @@
   border-top: none;
   border-right: none;
 }
-
-
 .arrow:hover {
   border-color:$dimGrey;
 }
-
 .arrow:active {
   border-color: $snow;
 }
 
-.aTitre {
+.articleTitre {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 66.933vw;
+
+  .title6 {
+    width: 58.400vw;
+  }
 }
 
 .job {
