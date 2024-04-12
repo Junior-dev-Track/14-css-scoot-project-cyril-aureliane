@@ -49,17 +49,16 @@ body {
   color: #495567;
 }
 
+.white {
+  color: white;
+}
+
 .title1 {
   color: white;
 }
 
 .title3 {
   font-weight: 700;
-}
-
-.title5 {
-  color: white;
-  text-align: center;
 }
 
 paragraph {
@@ -78,6 +77,10 @@ paragraph {
 
 .alignLeft {
   text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
 }
 
 body {
@@ -86,17 +89,16 @@ body {
   color: #495567;
 }
 
+.white {
+  color: white;
+}
+
 .title1 {
   color: white;
 }
 
 .title3 {
   font-weight: 700;
-}
-
-.title5 {
-  color: white;
-  text-align: center;
 }
 
 paragraph {
@@ -115,6 +117,10 @@ paragraph {
 
 .alignLeft {
   text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
 }
 
 .img {
@@ -511,6 +517,7 @@ header {
 .containerRound .bigRound {
   grid-row: 1/4;
   grid-column: 1;
+  justify-self: center;
 }
 .containerRound .smallRound {
   grid-row: 3/5;
@@ -546,6 +553,7 @@ header {
       line-height: 1em;*/
     font-size: 2rem;
     line-height: 1em;
+    letter-spacing: -0.045em;
   }
   .title3 {
     /*// title 3 mais pas mobile
@@ -568,7 +576,6 @@ header {
   }
   .title5 {
     font-size: 2rem;
-    text-align: center;
   }
   .title6 {
     font-size: 1.125rem;
