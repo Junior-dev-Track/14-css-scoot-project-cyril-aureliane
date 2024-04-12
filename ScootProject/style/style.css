@@ -379,11 +379,14 @@ header {
 .articleTitre {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 66.933vw;
 }
 .articleTitre .title4 {
   width: 58.4vw;
+}
+
+.article .paragraph {
+  width: 66.933vw;
 }
 
 .job {

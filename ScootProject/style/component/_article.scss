@@ -51,12 +51,16 @@
 .articleTitre {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  //align-items: center;
   width: 66.933vw;
 
   .title4 {
     width: 58.400vw;
   }
+}
+
+.article .paragraph {
+  width: 66.933vw;
 }
 
 .job {
