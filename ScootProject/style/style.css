@@ -94,9 +94,22 @@ body {
   color: unset;
 }
 
+.title2mobile {
+  font-size: 2rem;
+  line-height: 1em;
+}
+
+.title3mobile {
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  letter-spacing: -0.045em;
+  font-weight: 700;
+}
+
 .img {
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .round {
@@ -208,7 +221,8 @@ header {
 
 .superNav {
   background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   width: 100vw;
   height: calc(100vh - 17.067vw);
   grid-column: 1/span 3;
@@ -297,19 +311,20 @@ header {
 }
 
 .article {
+  width: 100%;
   background-color: #F2F5F9;
-  margin: 50px 0; /* a mettre en vw */
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 24px;
 }
-.article .title6 {
+.article .alignLeft {
   text-align: left;
 }
 .article .paragraph {
   color: #495567;
-  text-align: left;
 }
 
 .arrow {
@@ -343,6 +358,15 @@ header {
   align-items: center;
 }
 
+.job {
+  gap: 2vw;
+  margin: 0;
+}
+.job .button {
+  margin-top: 5px;
+  width: 100%;
+}
+
 .top {
   height: 100%;
   width: 100%;
@@ -365,7 +389,8 @@ header {
 .topBackground {
   height: 100%;
   width: 100%;
-  object-position: center center;
+  -o-object-position: center center;
+     object-position: center center;
   grid-column: 1/span 3;
   grid-row: 1/span 3;
 }
@@ -393,7 +418,8 @@ header {
 }
 
 .bottomCentered {
-  object-position: bottom center;
+  -o-object-position: bottom center;
+     object-position: bottom center;
 }
 
 .section {
@@ -407,7 +433,46 @@ header {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 35vw;
+  gap: 30vw;
+}
+.main .worldButton {
+  width: 100%;
+  gap: 4vw;
+}
+.main .worldButton div {
+  background-color: #FFF4DF;
+  width: 100%;
+  height: 19.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
-/*# sourceMappingURL=style.css.map */
+.containerRound {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+}
+.containerRound .bigRound {
+  grid-row: 1/4;
+  grid-column: 1;
+}
+.containerRound .smallRound {
+  grid-row: 3/5;
+  grid-column: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.sectionArticle {
+  gap: 4vw;
+}
+.sectionArticle .title3 {
+  padding: 25px 0;
+}
+
+.sousSection .paragraph {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */

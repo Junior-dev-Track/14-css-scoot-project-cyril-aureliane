@@ -10,6 +10,22 @@
     display: flex;
     flex-direction: column;
     gap: 30vw;
+
+    .worldButton {
+        width: 100%;
+        gap: 4vw;
+
+        div {
+            background-color: $lightYellow;
+            width: 100%;
+            height: 19.200vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+    }
 }
 
 .containerRound {
