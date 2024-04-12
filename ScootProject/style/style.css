@@ -404,7 +404,7 @@ header {
 }
 
 .secondary {
-  height: 26.042vw;
+  height: 42.667vw;
   background-color: #FCB72B;
 }
 
@@ -499,6 +499,10 @@ header {
   margin-top: 30px;
 }
 
+.secondary {
+  height: 26.042vw;
+}
+
 @media screen and (max-width: 767px) {
   .title1 {
     /*// title 1 mais pas mobile
@@ -533,6 +537,33 @@ header {
       letter-spacing: -0.045em;*/
     font-size: 1.125rem;
     line-height: 1.333em;
+    letter-spacing: -0.045em;
+  }
+  .paragraph {
+    font-size: 0.938rem;
+    line-height: 1.667em;
+    letter-spacing: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .title1 {
+    font-size: 3.5rem;
+    line-height: 1em;
+    letter-spacing: -0.045em;
+  }
+  .title2 {
+    font-size: 3rem;
+    line-height: 1em;
+    letter-spacing: -0.045em;
+  }
+  .title3 {
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    letter-spacing: -0.045em;
+  }
+  .title4 {
+    font-size: 1.5rem;
+    line-height: 1.167em;
     letter-spacing: -0.045em;
   }
   .paragraph {
