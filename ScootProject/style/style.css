@@ -569,13 +569,8 @@ header {
     width: 100px;
     max-width: 96px;
   }
-  .medium {
-    width: 5.6vw;
-    max-width: 96px;
-  }
-  .small {
-    width: 4.933vw;
-    max-width: 96px;
+  .large {
+    width: 31.25vw;
   }
 }
 

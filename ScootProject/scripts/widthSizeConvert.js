@@ -16,4 +16,4 @@ let [   phone,
 
 // ** Call to fonction
 
-responsiveSize(200, ipadMini)
+responsiveSize(240, ipadMini)
