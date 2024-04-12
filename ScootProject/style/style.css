@@ -68,6 +68,12 @@ body {
   color: #939CAA;
 }
 
+.paragraph {
+  font-size: 0.938rem;
+  line-height: 1.667em;
+  letter-spacing: 0;
+}
+
 .footerLink {
   font-family: "Space Mono", monospace;
   font-weight: 700;
@@ -386,7 +392,6 @@ header {
 }
 .job .button {
   margin-top: 5px;
-  width: 100%;
 }
 
 .top {
@@ -499,10 +504,6 @@ header {
   margin-top: 30px;
 }
 
-.secondary {
-  height: 26.042vw;
-}
-
 @media screen and (max-width: 767px) {
   .title1 {
     /*// title 1 mais pas mobile
@@ -539,11 +540,6 @@ header {
     line-height: 1.333em;
     letter-spacing: -0.045em;
   }
-  .paragraph {
-    font-size: 0.938rem;
-    line-height: 1.667em;
-    letter-spacing: 0;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .title1 {
@@ -566,10 +562,22 @@ header {
     line-height: 1.167em;
     letter-spacing: -0.045em;
   }
-  .paragraph {
-    font-size: 0.938rem;
-    line-height: 1.667em;
-    letter-spacing: 0;
+  .secondary {
+    height: 26.042vw;
+  }
+  .sectionArticle {
+    gap: 2vw;
+  }
+  .sectionArticle .job {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sectionArticle .textJob {
+    text-align: left;
+  }
+  .section .worldButton {
+    display: none;
   }
 }
 
