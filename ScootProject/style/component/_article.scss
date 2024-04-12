@@ -27,6 +27,12 @@
   }
 }
 
+.faq {
+  .paragraph {
+    width: 66.933vw;
+  };
+}
+
 .arrow {
   height: 8px;
   aspect-ratio: 1/1;
@@ -57,10 +63,6 @@
   .title4 {
     width: 58.400vw;
   }
-}
-
-.article .paragraph {
-  width: 66.933vw;
 }
 
 .job {

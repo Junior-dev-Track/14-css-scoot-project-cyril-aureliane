@@ -108,16 +108,6 @@ body {
   align-items: center;
 }
 
-.medium {
-  width: 25.6vw;
-  max-width: 96px;
-}
-
-.small {
-  width: 14.933vw;
-  max-width: 96px;
-}
-
 .button {
   background-color: #FCB72B;
   display: block;
@@ -351,6 +341,10 @@ header {
   color: #495567;
 }
 
+.faq .paragraph {
+  width: 66.933vw;
+}
+
 .arrow {
   height: 8px;
   aspect-ratio: 1/1;
@@ -383,10 +377,6 @@ header {
 }
 .articleTitre .title4 {
   width: 58.4vw;
-}
-
-.article .paragraph {
-  width: 66.933vw;
 }
 
 .job {
@@ -509,39 +499,32 @@ header {
 
 @media screen and (max-width: 767px) {
   .title1 {
-    /*// title 1 mais pas mobile
-      font-size: 3.5rem;
-      line-height: 1em;
-    letter-spacing: -0.045em;*/
     font-size: 2.5rem;
     line-height: 1.2em;
     letter-spacing: -0.045em;
   }
   .title2 {
-    /*  // title 2 mais pas mobile
-      font-size: 3rem;
-      line-height: 1em;*/
     font-size: 2rem;
     line-height: 1em;
     letter-spacing: -0.045em;
   }
   .title3 {
-    /*// title 3 mais pas mobile
-    font-size: 2.500rem;
-    line-height: 1.200em;
-    letter-spacing: -0.045em;*/
     font-size: 1.5rem;
     line-height: 1.2em;
     letter-spacing: -0.045em;
   }
   .title4 {
-    /*  //title 4 mais pas mobile
-      font-size: 1.500rem;
-      line-height: 1.167em;
-      letter-spacing: -0.045em;*/
     font-size: 1.125rem;
     line-height: 1.333em;
     letter-spacing: -0.045em;
+  }
+  .medium {
+    width: 25.6vw;
+    max-width: 96px;
+  }
+  .small {
+    width: 14.933vw;
+    max-width: 96px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -581,6 +564,18 @@ header {
   }
   .section .worldButton {
     display: none;
+  }
+  .medium {
+    width: 100px;
+    max-width: 96px;
+  }
+  .medium {
+    width: 5.6vw;
+    max-width: 96px;
+  }
+  .small {
+    width: 4.933vw;
+    max-width: 96px;
   }
 }
 
