@@ -49,50 +49,14 @@ body {
   color: #495567;
 }
 
-.title1 {
-  font-size: 3.5rem;
-  line-height: 1em;
-  color: white;
-}
-
-.title2 {
-  font-size: 3rem;
-  line-height: 1em;
-}
-
-.title3 {
-  font-size: 2.5rem;
-  line-height: 1.2em;
-  letter-spacing: -0.045em;
-  font-weight: 700;
-}
-
-.title4 {
-  font-size: 1.5rem;
-  line-height: 1.167em;
-  letter-spacing: -0.045em;
-}
-
 .paragraph {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 0.938rem;
-  line-height: 1.667em;
   color: #939CAA;
-  letter-spacing: 0;
 }
 
 .title5 {
   color: white;
-  font-size: 2rem;
-  line-height: 1em;
-  letter-spacing: -0.045em;
   text-align: center;
-}
-
-.title6 {
-  font-size: 1.125rem;
-  line-height: 1.333em;
-  letter-spacing: -0.045em;
 }
 
 .internLinkType {
@@ -102,18 +66,6 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: unset;
-}
-
-.title2mobile {
-  font-size: 2rem;
-  line-height: 1em;
-}
-
-.title3mobile {
-  font-size: 1.5rem;
-  line-height: 1.2em;
-  letter-spacing: -0.045em;
-  font-weight: 700;
 }
 
 .alignLeft {
@@ -126,50 +78,14 @@ body {
   color: #495567;
 }
 
-.title1 {
-  font-size: 3.5rem;
-  line-height: 1em;
-  color: white;
-}
-
-.title2 {
-  font-size: 3rem;
-  line-height: 1em;
-}
-
-.title3 {
-  font-size: 2.5rem;
-  line-height: 1.2em;
-  letter-spacing: -0.045em;
-  font-weight: 700;
-}
-
-.title4 {
-  font-size: 1.5rem;
-  line-height: 1.167em;
-  letter-spacing: -0.045em;
-}
-
 .paragraph {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 0.938rem;
-  line-height: 1.667em;
   color: #939CAA;
-  letter-spacing: 0;
 }
 
 .title5 {
   color: white;
-  font-size: 2rem;
-  line-height: 1em;
-  letter-spacing: -0.045em;
   text-align: center;
-}
-
-.title6 {
-  font-size: 1.125rem;
-  line-height: 1.333em;
-  letter-spacing: -0.045em;
 }
 
 .internLinkType {
@@ -179,18 +95,6 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: unset;
-}
-
-.title2mobile {
-  font-size: 2rem;
-  line-height: 1em;
-}
-
-.title3mobile {
-  font-size: 1.5rem;
-  line-height: 1.2em;
-  letter-spacing: -0.045em;
-  font-weight: 700;
 }
 
 .alignLeft {
@@ -611,11 +515,6 @@ header {
 }
 
 @media screen and (max-width: 767px) {
-  body {
-    font-family: "Space Mono", monospace;
-    letter-spacing: -0.045em;
-    color: #495567;
-  }
   .title1 {
     font-size: 3.5rem;
     line-height: 1em;
@@ -637,31 +536,18 @@ header {
     letter-spacing: -0.045em;
   }
   .paragraph {
-    font-family: "Lexend Deca", sans-serif;
     font-size: 0.938rem;
     line-height: 1.667em;
-    color: #939CAA;
     letter-spacing: 0;
   }
   .title5 {
-    color: white;
     font-size: 2rem;
-    line-height: 1em;
-    letter-spacing: -0.045em;
     text-align: center;
   }
   .title6 {
     font-size: 1.125rem;
     line-height: 1.333em;
     letter-spacing: -0.045em;
-  }
-  .internLinkType {
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: unset;
   }
   .title2mobile {
     font-size: 2rem;

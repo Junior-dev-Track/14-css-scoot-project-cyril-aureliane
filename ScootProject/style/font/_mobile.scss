@@ -1,8 +1,3 @@
-body {
-  font-family: "Space Mono", monospace;
-  letter-spacing: -0.045em;
-  color: $darkNavy;
-}
 .title1 {
   font-size: 3.5rem;
   line-height: 1em;
@@ -28,18 +23,13 @@ body {
 }
 
 .paragraph {
-  font-family: "Lexend Deca", sans-serif;
   font-size: 0.938rem;
   line-height: 1.667em;
-  color: $dimGrey;
   letter-spacing: 0;
 }
 
 .title5{
-  color: white;
   font-size: 2.000rem;
-  line-height: 1.000em;
-  letter-spacing: -0.045em;
   text-align: center;
 }
 
@@ -49,12 +39,6 @@ body {
   letter-spacing: -0.045em;
 }
 .internLinkType {
-  font-family: "Space Mono", monospace;
-  font-weight : 700;
-  letter-spacing: 0;
-  text-transform: capitalize;
-  text-decoration: none;
-  color: unset;
 }
 
 .title2mobile {
