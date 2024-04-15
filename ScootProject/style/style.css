@@ -93,7 +93,8 @@ body {
 
 .img {
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .round {
@@ -106,6 +107,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.worldmap {
+  width: 100%;
+}
+
+.worldmap_desktop {
+  display: none;
 }
 
 .button {
@@ -312,7 +321,8 @@ button {
 .topBackground {
   height: 100%;
   width: 100%;
-  object-position: center center;
+  -o-object-position: center center;
+     object-position: center center;
   grid-column: 1/span 3;
   grid-row: 1/span 3;
 }
@@ -340,7 +350,8 @@ button {
 }
 
 .bottomCentered {
-  object-position: bottom center;
+  -o-object-position: bottom center;
+     object-position: bottom center;
 }
 
 .section {
@@ -359,7 +370,9 @@ button {
 .main .worldButton {
   width: 100%;
   gap: 4vw;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .main .worldButton div {
   background-color: #FFF4DF;
@@ -437,7 +450,8 @@ button {
   }
   .superNav {
     background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
     width: 100vw;
     height: calc(100vh - 17.067vw);
     grid-column: 1/span 3;
@@ -613,9 +627,14 @@ button {
     width: 12.5vw;
     height: 12.5vw;
   }
+  .worldmap {
+    display: none;
+  }
+  .worldmap_desktop {
+    display: block;
+    width: 100%;
+  }
   .container > :not(.top, .superNav, .logo) {
     padding: 0 5.078vw;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
