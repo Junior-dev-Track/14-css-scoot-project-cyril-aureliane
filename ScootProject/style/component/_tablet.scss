@@ -55,14 +55,37 @@
 }
 
 .topHome {
-    display: grid;
-    
-    .textTopHome {
-        align-items: start;
-        text-align: left;
+    display: flex;
+
+    .section {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 10vw;
+        padding: 0 10vw;
+
+        .textTopHome {
+            align-items: start;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 4vw;
+            grid-column: 2/3;
+            
+        }
+        
+    }
+
+    .img {
+        grid-column: 1/2;
+        height: unset;
+        align-self: start;
     }
 }
 
+
+.main {
+    gap: 18vw;
+}
 
 // Nav
 .burger {
@@ -90,6 +113,20 @@
     display: flex;
     align-items: center;
     gap: 4.167vw;
+}
+
+//TopMain
+
+.secondary {
+    .topContent {
+        padding: 0 15px;
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+.topContent {
+    padding: 0 15vw;
 }
 
 // Footer
@@ -136,12 +173,3 @@ footer h2 {
     flex: 2
 }
 
-//TopMain
-
-.secondary {
-    .topContent {
-        padding: 0 97px;
-        align-items: flex-start;
-        text-align: left;
-    }
-}
