@@ -46,7 +46,6 @@
 .burger {
     display: none;
 }
-
 .header {
     height: 12.500vw;
     display: flex;
@@ -54,7 +53,6 @@
     align-items: center;
     padding-right: 5.078vw;
 }
-
 .nav {
     display: flex;
     align-items: center;
@@ -66,9 +64,24 @@
             font-weight: 700;
         }
 }
-
 .internLink {
     display: flex;
     align-items: center;
     gap: 4.167vw;
+}
+
+// Footer
+
+.callToAction {
+    padding: 8.533vw 23.467vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    gap: 5.208vw;;
+    text-align: center;
+}
+
+footer h2 {
+    width:  54.036vw;
 }

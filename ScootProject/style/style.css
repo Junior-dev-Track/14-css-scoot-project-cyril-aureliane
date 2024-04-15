@@ -37,7 +37,7 @@ body::-webkit-scrollbar {
   width: 100vw;
 }
 
-.container > :not(.top, .superNav, .logo) {
+.container > :not(.top, .superNav, .logo, .callToAction) {
   padding: 0 8.533vw;
 }
 
@@ -93,8 +93,7 @@ body {
 
 .img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .round {
@@ -186,11 +185,6 @@ button {
 }
 .footer .callToAction {
   background-color: #495567;
-  padding: 23.467vw 8.533vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10.667vw;
 }
 .footer .store {
   display: flex;
@@ -321,8 +315,7 @@ button {
 .topBackground {
   height: 100%;
   width: 100%;
-  -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
   grid-column: 1/span 3;
   grid-row: 1/span 3;
 }
@@ -350,8 +343,7 @@ button {
 }
 
 .bottomCentered {
-  -o-object-position: bottom center;
-     object-position: bottom center;
+  object-position: bottom center;
 }
 
 .section {
@@ -370,9 +362,7 @@ button {
 .main .worldButton {
   width: 100%;
   gap: 4vw;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .main .worldButton div {
   background-color: #FFF4DF;
@@ -450,8 +440,7 @@ button {
   }
   .superNav {
     background-color: rgba(0, 0, 0, 0.7);
-    -webkit-backdrop-filter: blur(2px);
-            backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
     width: 100vw;
     height: calc(100vh - 17.067vw);
     grid-column: 1/span 3;
@@ -528,6 +517,15 @@ button {
     left: 0px;
     top: 17.067vw;
     transition: all 0.35s ease;
+  }
+  .callToAction {
+    background-color: #495567;
+    padding: 8.533vw 23.467vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10.667vw;
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -610,6 +608,18 @@ button {
     align-items: center;
     gap: 4.167vw;
   }
+  .callToAction {
+    padding: 8.533vw 23.467vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5.208vw;
+    text-align: center;
+  }
+  footer h2 {
+    width: 54.036vw;
+  }
   .large {
     width: 31.25vw;
     height: 31.25vw;
@@ -634,7 +644,9 @@ button {
     display: block;
     width: 100%;
   }
-  .container > :not(.top, .superNav, .logo) {
-    padding: 0 5.078vw;
+  .container > :not(.top, .superNav, .logo, .callToAction) {
+    padding: 0vw 5.078vw;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
