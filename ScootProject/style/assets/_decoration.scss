@@ -1,5 +1,14 @@
-.decoFooter {
-  position: absolute;
-  width: 100%;
-  display: none;
+
+//Tablet // Top main
+.topRoundMiddle {
+  background-image: url("../assets/svg/roundDeco.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right center;
+}
+.topRoundHome {
+  background-image: url("../assets/svg/roundDeco.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right 90%;
 }

@@ -179,10 +179,18 @@ button {
     opacity: 0;
   }
 }
-.decoFooter {
-  position: absolute;
-  width: 100%;
-  display: none;
+.topRoundMiddle {
+  background-image: url("../assets/svg/roundDeco.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right center;
+}
+
+.topRoundHome {
+  background-image: url("../assets/svg/roundDeco.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right 90%;
 }
 
 .footer {
@@ -581,12 +589,6 @@ button {
     line-height: 1.167em;
     letter-spacing: -0.045em;
   }
-  .topRoundMiddle {
-    background-image: url("../assets/svg/roundDeco.svg");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: right center;
-  }
   .secondary {
     height: 26.042vw;
   }
@@ -621,11 +623,41 @@ button {
     height: 84.635vw;
   }
   .topHome {
-    display: grid;
+    display: flex;
   }
-  .topHome .textTopHome {
+  .topHome .section {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10vw;
+    padding: 0 10vw;
+  }
+  .topHome .section .textTopHome {
     align-items: start;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    grid-column: 2/3;
+  }
+  .topHome .img {
+    grid-column: 1/2;
+    height: unset;
+    align-self: start;
+  }
+  nav a, footer a {
+    font-size: 0.938rem;
+    line-height: 1.667em;
+    color: #939CAA;
+    font-weight: 700;
+  }
+  nav a:hover, footer a:hover {
+    color: #FCB72B;
+  }
+  nav a:active, footer a:active {
+    color: #FFF4DF;
+  }
+  .main {
+    gap: 18vw;
   }
   .burger {
     display: none;
@@ -642,16 +674,18 @@ button {
     align-items: center;
     gap: 12.24vw;
   }
-  .nav a {
-    font-size: 0.938rem;
-    line-height: 1.667em;
-    color: #939CAA;
-    font-weight: 700;
-  }
   .internLink {
     display: flex;
     align-items: center;
     gap: 4.167vw;
+  }
+  .secondary .topContent {
+    padding: 0 15px;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .topContent {
+    padding: 0 15vw;
   }
   .callToAction {
     background-image: url("../assets/svg/roundDeco_tablet.svg");
@@ -687,11 +721,6 @@ button {
   }
   .spacer {
     flex: 2;
-  }
-  .secondary .topContent {
-    padding: 0 97px;
-    align-items: flex-start;
-    text-align: left;
   }
   .large {
     width: 31.25vw;

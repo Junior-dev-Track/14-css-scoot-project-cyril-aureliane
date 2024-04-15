@@ -1,10 +1,4 @@
-// Top main
-.topRoundMiddle {
-    background-image: url("../assets/svg/roundDeco.svg");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: right center;
-}
+
 
 // Article
 .secondary {
@@ -83,6 +77,22 @@
 }
 
 
+nav, footer {
+    a {
+        font-size: 0.938rem;
+        line-height: 1.667em;
+        color: $dimGrey;
+        font-weight: 700;
+    }
+    a:hover {
+        color: $yellow;
+    }
+    a:active {
+        color: $lightYellow;
+    }
+}
+
+
 .main {
     gap: 18vw;
 }
@@ -102,18 +112,15 @@
     display: flex;
     align-items: center;
     gap:  12.240vw;
-        a {
-            font-size: 0.938rem;
-            line-height: 1.667em;
-            color: $dimGrey;
-            font-weight: 700;
-        }
 }
 .internLink {
     display: flex;
     align-items: center;
     gap: 4.167vw;
 }
+
+
+
 
 //TopMain
 
