@@ -581,7 +581,7 @@ button {
     line-height: 1.167em;
     letter-spacing: -0.045em;
   }
-  .topColor:nothomeTopColor {
+  .topRoundMiddle {
     background-image: url("../assets/svg/roundDeco.svg");
     background-repeat: no-repeat;
     background-size: 30%;
