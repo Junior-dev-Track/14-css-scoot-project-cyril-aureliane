@@ -1,8 +1,8 @@
+
+// Article
 .secondary {
     height: 26.042vw;
 }
-
-
 .sectionArticle {
     gap: 2vw;
 
@@ -16,7 +16,6 @@
         text-align: left;
     }
 }
-
 .section {
     
     gap: 5vw;
@@ -35,12 +34,41 @@
     }
 
 }
-
 .medium {
     width: 100px;
     max-width: 96px;
 }
-
 .home {
     height: 84.635vw;
+}
+
+// Nav
+.burger {
+    display: none;
+}
+
+.header {
+    height: 12.500vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5.078vw;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap:  12.240vw;
+        a {
+            font-size: 0.938rem;
+            line-height: 1.667em;
+            color: $dimGrey;
+            font-weight: 700;
+        }
+}
+
+.internLink {
+    display: flex;
+    align-items: center;
+    gap: 4.167vw;
 }
