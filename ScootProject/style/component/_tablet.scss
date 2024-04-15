@@ -4,7 +4,7 @@
 .secondary {
     height: 26.042vw;
 }
-.sectionArticle {
+section.sectionArticle {
     gap: 2vw;
 
     .job {
@@ -15,6 +15,11 @@
 
     .textJob {
         text-align: left;
+
+        .paragraph {
+            padding-top: 1vw;
+        }
+        
     }
 }
 
@@ -26,15 +31,6 @@
 
     .worldButton {
         display: none;
-    }
-    .sousSection {
-        .paragraph {
-            padding: 0 15vw;
-        }
-    }
-
-    > .paragraph {
-        padding: 0 5vw;
     }
 
 }
@@ -55,7 +51,6 @@
         display: grid;
         grid-template-columns: repeat(2, auto);
         gap: 10vw;
-        padding: 0 10vw;
 
         .textTopHome {
             align-items: start;
