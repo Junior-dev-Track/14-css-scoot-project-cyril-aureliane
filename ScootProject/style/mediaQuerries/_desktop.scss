@@ -1,1 +1,8 @@
+.container > :not(#{$blackList}) {
+  padding: 0 11.458vw;
+}
+
+
 @import "../font/desktop";
+@import "../component/desktop";
+@import "../assets/desktop";

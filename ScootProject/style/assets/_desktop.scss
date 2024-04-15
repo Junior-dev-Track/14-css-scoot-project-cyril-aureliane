@@ -1,0 +1,28 @@
+.large {
+  width: 31.250vw;
+  height: 31.250vw;
+}
+
+.medium {
+  width: 31.250vw;
+  height: 31.250vw;
+  max-width: 240px;
+}
+.small {
+  width: 6.667vw;
+  max-width: 6.667vw;
+}
+
+.smallRound {
+  width: 6.667vw;
+  height: 6.667vw;
+}
+
+.worldmap {
+  display: none;
+}
+
+.worldmap_desktop {
+  display: block;
+  width: 100%;
+}
