@@ -112,3 +112,33 @@
   gap: 10.667vw;
   text-align: center;
 }
+
+.socials {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 28.752vw;
+  margin-top: 64px;
+  margin-bottom: 11.051vw;
+
+}
+.internLink{
+  display: flex;
+  flex-direction: column;
+  gap: 4.267vw;
+  text-align: center;
+}
+.externLink {
+  margin-top:  22.667vw;
+  margin-bottom: 90.25px;
+  width: 32.000vw;
+  display: flex;
+  justify-content: space-between;
+}
+.spacer {
+  display: none;
+}

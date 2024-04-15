@@ -11,28 +11,4 @@
     align-items: center;
     gap :12.82px;
   }
-  .socials {
-    background-color: $black;
-    padding: 17.067vw 0 23.476vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo {
-    width: 28.752vw;
-    margin-bottom: 11.051vw;
-  }
-  .internLink{
-    display: flex;
-    flex-direction: column;
-    gap: 4.267vw;
-    text-align: center;
-  }
-  .externLink {
-    margin-top:  22.667vw;
-    width: 32.000vw;
-    display: flex;
-    justify-content: space-between;
-  }
 }

@@ -85,3 +85,26 @@
 footer h2 {
     width:  54.036vw;
 }
+.socials {
+    height: 12.500vw;
+    background-color: $black;
+    //padding: 17.067vw;
+    display: flex;
+    gap : 58px;
+    //flex-direction: column;/*/
+    justify-content: start;
+    align-items: center;
+}
+.logo {
+    width: 14.039vw;
+    //margin-bottom: 11.051vw;
+}
+.externLink {
+    //margin-top:  22.667vw;
+    width: 15.625vw;
+    display: flex;
+    justify-content: space-between;
+}
+.spacer {
+    flex: 2
+}

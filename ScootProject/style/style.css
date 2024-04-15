@@ -192,30 +192,6 @@ button {
   align-items: center;
   gap: 12.82px;
 }
-.footer .socials {
-  background-color: #333A44;
-  padding: 17.067vw 0 23.476vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer .logo {
-  width: 28.752vw;
-  margin-bottom: 11.051vw;
-}
-.footer .internLink {
-  display: flex;
-  flex-direction: column;
-  gap: 4.267vw;
-  text-align: center;
-}
-.footer .externLink {
-  margin-top: 22.667vw;
-  width: 32vw;
-  display: flex;
-  justify-content: space-between;
-}
 
 .hide, .show {
   animation: all 0.35s ease;
@@ -527,6 +503,34 @@ button {
     gap: 10.667vw;
     text-align: center;
   }
+  .socials {
+    background-color: #333A44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 28.752vw;
+    margin-top: 64px;
+    margin-bottom: 11.051vw;
+  }
+  .internLink {
+    display: flex;
+    flex-direction: column;
+    gap: 4.267vw;
+    text-align: center;
+  }
+  .externLink {
+    margin-top: 22.667vw;
+    margin-bottom: 90.25px;
+    width: 32vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .spacer {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .title1 {
@@ -619,6 +623,25 @@ button {
   }
   footer h2 {
     width: 54.036vw;
+  }
+  .socials {
+    height: 12.5vw;
+    background-color: #333A44;
+    display: flex;
+    gap: 58px;
+    justify-content: start;
+    align-items: center;
+  }
+  .logo {
+    width: 14.039vw;
+  }
+  .externLink {
+    width: 15.625vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .spacer {
+    flex: 2;
   }
   .large {
     width: 31.25vw;
