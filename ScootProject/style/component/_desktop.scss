@@ -3,6 +3,26 @@
 }
 
 
+//Article
+
+.sectionArticle {
+    gap: 2vw;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .textJob {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        text-align: left;
+    }
+}
+
 //Section
 
 .main {
