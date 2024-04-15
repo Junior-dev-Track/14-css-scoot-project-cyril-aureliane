@@ -49,13 +49,12 @@
 
 .topHome {
     display: flex;
-    //ajouter padding 15vw gauche et droite
-    
 
     .section {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 4vw;
+        grid-template-columns: repeat(2, auto);
+        gap: 10vw;
+        padding: 0 10vw;
 
         .textTopHome {
             align-items: start;
@@ -64,6 +63,7 @@
             flex-direction: column;
             gap: 4vw;
             grid-column: 2/3;
+            
         }
         
     }
@@ -75,6 +75,10 @@
     }
 }
 
+
+.main {
+    gap: 18vw;
+}
 
 // Nav
 .burger {
@@ -114,7 +118,9 @@
     }
 }
 
-.topContent
+.topContent {
+    padding: 0 15vw;
+}
 
 // Footer
 
