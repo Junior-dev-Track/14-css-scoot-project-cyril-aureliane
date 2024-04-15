@@ -64,3 +64,15 @@
         margin-top: 30px;
     }
 }
+
+.topHome {
+    .section {
+        gap: 4vw;
+    }
+
+    .textTopHome {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+}

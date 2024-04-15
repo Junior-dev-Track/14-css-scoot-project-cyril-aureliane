@@ -16,6 +16,9 @@
         text-align: left;
     }
 }
+
+// Section
+
 .section {
     
     gap: 5vw;
@@ -34,13 +37,25 @@
     }
 
 }
+
 .medium {
     width: 100px;
     max-width: 96px;
 }
+
 .home {
     height: 84.635vw;
 }
+
+.topHome {
+    display: grid;
+    
+    .textTopHome {
+        align-items: start;
+        text-align: left;
+    }
+}
+
 
 // Nav
 .burger {
@@ -107,4 +122,14 @@ footer h2 {
 }
 .spacer {
     flex: 2
+}
+
+//TopMain
+
+.secondary {
+    .topContent {
+        padding: 0 97px;
+        align-items: flex-start;
+        text-align: left;
+    }
 }

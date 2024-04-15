@@ -379,6 +379,15 @@ button {
   margin-top: 30px;
 }
 
+.topHome .section {
+  gap: 4vw;
+}
+.topHome .textTopHome {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+
 @media screen and (max-width: 767px) {
   .title1 {
     font-size: 2.5rem;
@@ -586,6 +595,13 @@ button {
   .home {
     height: 84.635vw;
   }
+  .topHome {
+    display: grid;
+  }
+  .topHome .textTopHome {
+    align-items: start;
+    text-align: left;
+  }
   .burger {
     display: none;
   }
@@ -642,6 +658,11 @@ button {
   }
   .spacer {
     flex: 2;
+  }
+  .secondary .topContent {
+    padding: 0 97px;
+    align-items: flex-start;
+    text-align: left;
   }
   .large {
     width: 31.25vw;
