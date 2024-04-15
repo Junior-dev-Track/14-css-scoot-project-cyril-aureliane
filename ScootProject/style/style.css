@@ -179,6 +179,12 @@ button {
     opacity: 0;
   }
 }
+.decoFooter {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
 .footer {
   background-color: darkslateblue;
   margin-top: 32vw;
@@ -389,6 +395,9 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .container > :not(.top, .superNav, .logo, .callToAction) {
+    padding: 0 8.533vw;
+  }
   .title1 {
     font-size: 2.5rem;
     line-height: 1.2em;
@@ -505,6 +514,10 @@ button {
   }
   .callToAction {
     background-color: #495567;
+    background-image: url("../assets/svg/roundDeco_mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     padding: 8.533vw 23.467vw;
     display: flex;
     flex-direction: column;
@@ -542,6 +555,12 @@ button {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
+  .container > :not(.top, .superNav, .logo, .callToAction) {
+    padding: 0vw 5.078vw;
+  }
+  .main > :not(.top) {
+    padding: 0vw 15.078vw;
+  }
   .title1 {
     font-size: 3.5rem;
     line-height: 1em;
@@ -561,6 +580,12 @@ button {
     font-size: 1.5rem;
     line-height: 1.167em;
     letter-spacing: -0.045em;
+  }
+  .topColor:nothomeTopColor {
+    background-image: url("../assets/svg/roundDeco.svg");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right center;
   }
   .secondary {
     height: 26.042vw;
@@ -629,6 +654,10 @@ button {
     gap: 4.167vw;
   }
   .callToAction {
+    background-image: url("../assets/svg/roundDeco_tablet.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     padding: 8.533vw 23.467vw;
     display: flex;
     justify-content: space-between;
@@ -687,9 +716,6 @@ button {
   .worldmap_desktop {
     display: block;
     width: 100%;
-  }
-  .container > :not(.top, .superNav, .logo, .callToAction) {
-    padding: 0vw 5.078vw;
   }
 }
 

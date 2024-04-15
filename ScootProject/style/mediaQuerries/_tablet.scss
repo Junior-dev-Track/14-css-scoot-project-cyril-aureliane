@@ -1,3 +1,13 @@
+.container > :not(#{$blackList}) {
+  padding: 0vw 5.078vw;
+}
+
+.main > :not(.top) {
+  padding: 0vw 15.078vw;
+}
+
+
+
 @import "../font/tablet";
 @import "../component/tablet";
 @import "../assets/tablet";

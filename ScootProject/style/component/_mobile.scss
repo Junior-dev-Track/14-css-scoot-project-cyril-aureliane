@@ -105,6 +105,13 @@
 // Footer
 .callToAction {
   background-color: $darkNavy;
+  background-image: url("../assets/svg/roundDeco_mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+
+
+
   padding: 8.533vw 23.467vw ;
   display: flex;
   flex-direction: column;

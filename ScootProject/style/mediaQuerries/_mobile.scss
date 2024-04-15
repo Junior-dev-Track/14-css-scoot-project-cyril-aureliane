@@ -1,3 +1,8 @@
+.container > :not(#{$blackList}) {
+  padding: 0 8.533vw;
+}
+
+
 @import "../font/mobile";
 @import "../assets/mobile";
 @import "../component/mobile";

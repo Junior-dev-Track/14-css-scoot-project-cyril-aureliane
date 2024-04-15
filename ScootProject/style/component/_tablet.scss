@@ -1,4 +1,10 @@
-
+// Top main
+.topColor:nothomeTopColor {
+        background-image: url("../assets/svg/roundDeco.svg");
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: right center;
+}
 // Article
 .secondary {
     height: 26.042vw;
@@ -88,6 +94,11 @@
 // Footer
 
 .callToAction {
+    background-image: url("../assets/svg/roundDeco_tablet.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
     padding: 8.533vw 23.467vw ;
     display: flex;
     justify-content: space-between;
